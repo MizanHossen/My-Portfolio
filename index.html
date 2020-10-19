@@ -1,0 +1,817 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Protfolio</title>
+
+    <script>
+        // Starting from top when refreshing
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+        };
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" type="text/css" href="css/superslides.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+<!--Loader/Preloader-->
+<div class="loader">
+    <div class="inner"></div>
+</div>
+
+<!--super slide section-->
+    <div class="overlay"></div>
+
+    <div id="slides">
+        <div class="slides-container">
+            <img src="img/1.jpg" alt="">
+            <img src="img/2.jpg" alt="">
+            <img src="img/3.jpg" alt="">
+            <img src="img/4.jpg" alt="">
+            <img src="img/5.jpg" alt="">
+            <img src="img/6.jpg" alt="">
+            <img src="img/7.jpg" alt="">
+            <img src="img/8.jpg" alt="">
+            <img src="img/9.jpg" alt="">
+            <img src="img/10.jpg" alt="">
+
+        </div>
+
+        <div class="titleMessage">
+            <div class="heading">
+                <p class="main">MD.MIZAN HOSSEN</p>
+                <p class="sub typed"></p>
+            </div>
+        </div>
+
+        <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+        </nav>
+    </div>
+
+
+<!--Navigation Section-->
+<nav id="navigation" class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-brand" href="#">MY SELF</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#stats">Stats</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--About section-->
+<section id="about" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <img  src="img/mizan.jpg" class="img-thumbnail" alt="">
+            </div>
+            <div class="col-md-7">
+                <h3>My name is MD.Mizan Hossen</h3>
+                <p>Hi there! I'm MD.Mizan Hossen from Narayanganj, Dhaka, Bangladesh. I am study in Computer Science And Engineering in Munshiganj Polytechnic Institute on Mirkadim, Munshiganj. I have 3 years experience creating software, mobile apps and websites for both myself, and for clients. I have experience programming in many different languages such as C, C++, C#, Java, PHP and Objective-C, however some of my favourite projects involve working in Swift for iOS.</p>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Skills Section-->
+<section id="skills" class="skillsSection section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>TECHNICAL SKILLS</h2>
+                <p>My proficiency in each skill (drag to scroll)</p>
+                <div class="owl-carousel owl-theme">
+                    <div class="skill ">
+                        <span class="chart" data-percent="90">
+                            <span class="percent">90%</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>HTML5</h4>
+                        <p>Used in most of develop website</p>
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="85">
+                            <span class="percent">85%</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>CSS</h4>
+                        <p>Used form a website</p>
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="84">
+                            <span class="percent">84%</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>jQuary</h4>
+                        <p>Used to design a website</p>
+                    </div>
+
+
+
+                    <div class="skill">
+                        <span class="chart" data-percent="77">
+                            <span class="percent">77%</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>JavaScript</h4>
+                        <p>Used in most of my web based projects</p>
+                    </div>
+
+
+                    <div class="skill">
+                        <span class="chart" data-percent="60">
+                            <span class="percent">60%</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>PHP</h4>
+                        <p>Used to form the backend</p>
+                    </div>
+
+                    <div class="skill">
+                        <span class="chart" data-percent="55">
+                            <span class="percent">55%</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>c++</h4>
+                        <p>Used to design and animation </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--stats section-->
+<section id="stats" class="statsSection section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="squareItem">
+                    <div class="squareInnerContainer">
+                        <div class="squareIcon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="squareContent">
+                            <h2 class="counter">5</h2>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="squareItem">
+                    <div class="squareInnerContainer">
+                        <div class="squareIcon">
+                            <i class="far fa-calendar-alt"></i>
+                        </div>
+                        <div class="squareContent">
+                            <h2 class="counter">320</h2>
+                            <p>clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="squareItem">
+                    <div class="squareInnerContainer">
+                        <div class="squareIcon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="squareContent">
+                            <h2 class="counter">39</h2>
+                            <p>IOS And Android Apps</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="squareItem">
+                    <div class="squareInnerContainer">
+                        <div class="squareIcon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <div class="squareContent">
+                            <h2 class="counter">980</h2>
+                            <p>Websites Made</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto text">
+                <p>Like What You See?</p>
+                <h2>I'd love to hear from you!</h2><br>
+                <button><a href="#">GET IN TUCH</a></button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<!--Portfolio Section-->
+<section id="portfolio" class="section">
+    <div class="container">
+        <div class="row">
+            <h2 class="heading">PROTFOLIO</h2>
+            <div class="filter">
+                <ul id="filters">
+                    <li><a href="" class="current" data-filter="*">All</a></li>
+                    <li><a href="" data-filter=".apps">Apps</a></li>
+                    <li><a href="" data-filter=".me">Me</a></li>
+                    <li><a href="" data-filter=".websites">Websites</a></li>
+                </ul>
+            </div>
+
+            <div class="itemsContainer">
+                <ul class="items">
+
+                    <li class="col-sm-4 col-md-3 apps">
+                        <div class="item">
+                            <img src="img/portfolio/app1.jpg" alt=""  height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/app1.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 apps">
+                        <div class="item">
+                            <img src="img/portfolio/app5.jpg" alt=""  height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/app5.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 apps">
+                        <div class="item">
+                            <img src="img/portfolio/app6.jpg" alt=""  height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/app6.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 apps">
+                        <div class="item">
+                            <img src="img/portfolio/app7.jpg" alt=""  height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/app7.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 apps">
+                        <div class="item">
+                            <img src="img/portfolio/app8.jpg" alt=""  height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/app8.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 me">
+                        <div class="item">
+                            <img src="img/portfolio/potfolio1.jpg" alt=""  height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/potfolio1.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 me">
+                        <div class="item">
+                            <img src="img/portfolio/potfolio5.jpg" alt=""  height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/potfolio5.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 me">
+                        <div class="item">
+                            <img src="img/portfolio/potfolio6.jpg" alt=""  height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/potfolio6.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 websites">
+                        <div class="item">
+                            <img src="img/portfolio/website1.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/website1.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 websites">
+                        <div class="item">
+                            <img src="img/portfolio/website5.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/website5.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 websites">
+                        <div class="item">
+                            <img src="img/portfolio/website6.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/website6.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 websites">
+                        <div class="item">
+                            <img src="img/portfolio/website7.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/website7.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 websites">
+                        <div class="item">
+                            <img src="img/portfolio/website8.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/website8.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 me">
+                        <div class="item">
+                            <img src="img/portfolio/potfolio1.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/potfolio1.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 apps">
+                        <div class="item">
+                            <img src="img/portfolio/app2.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/app2.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 websites">
+                        <div class="item">
+                            <img src="img/portfolio/website2.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/website2.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 websites">
+                        <div class="item">
+                            <img src="img/portfolio/website9.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/website9.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 apps">
+                        <div class="item">
+                            <img src="img/portfolio/app3.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/app3.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 me">
+                        <div class="item">
+                            <img src="img/portfolio/potfolio3.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/potfolio3.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 me">
+                        <div class="item">
+                            <img src="img/portfolio/potfolio7.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/potfolio7.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 me">
+                        <div class="item">
+                            <img src="img/portfolio/potfolio8.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/potfolio8.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 websites">
+                        <div class="item">
+                            <img src="img/portfolio/website3.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/website3.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 websites">
+                        <div class="item">
+                            <img src="img/portfolio/website10.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/website10.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 apps">
+                        <div class="item">
+                            <img src="img/portfolio/app4.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/app4.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 me">
+                        <div class="item">
+                            <img src="img/portfolio/potfolio4.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/potfolio4.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 websites">
+                        <div class="item">
+                            <img src="img/portfolio/website4.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/website4.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 apps">
+                        <div class="item">
+                            <img src="img/portfolio/app9.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/app9.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4 col-md-3 apps">
+                        <div class="item">
+                            <img src="img/portfolio/app10.jpg" alt="" height="200">
+                            <div class="icons">
+                                <a class="searchButton" title="view Image" href="img/portfolio/app10.jpg" data-fancybox
+                                   data-caption="This is image one">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a class="projectLink" href="">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+
+                            <div class="imgOverlay"></div>
+
+                        </div>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <p>© Copyright 2020 My Portfolio Website</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--end footer-->
+
+
+
+
+<script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script SRC="js/jquery.waypoints.min.js"></script>
+<script SRC="js/jquery.counterup.min.js"></script>
+<script SRC="js/all.min.js"></script>
+<script SRC="js/jquery.easypiechart.min.js"></script>
+<script SRC="js/owl.carousel.min.js"></script>
+<script SRC="js/typed.min.js"></script>
+<script SRC="js/jquery.superslides.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
